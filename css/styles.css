@@ -1,0 +1,177 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 {
+  color: black;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+/*Conceptos padres e hijos*/
+/*Inicio*/
+section article {
+  background-color: white; }
+
+/*Miembros*/
+main article {
+  background-color: white; }
+
+/*Selector de clase*/
+.letra-grande {
+  font-size: 30px; }
+
+.letra-grandess {
+  font-size: 45px; }
+
+.white {
+  color: black; }
+
+ol li {
+  color: white; }
+
+h2 {
+  text-align: center;
+  font-family: "Kashima Demo.ort"; }
+
+h3 {
+  text-align: center;
+  font-family: 'Cinzel', serif; }
+
+/*TIPOS DE FUENTES*/
+@font-face {
+  font-family: "Kashima Demo.ort";
+  src: url("../fonts/Kashima Demo.otf"); }
+
+p {
+  font-family: 'Saira', sans-serif; }
+
+/*Espacio externo- márgenes*/
+.caja {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/*Display*/
+.menú-nav li {
+  display: inline;
+  margin-right: 50px; }
+
+/*FLEXBOX*/
+.menú-nav {
+  display: flex;
+  gap: 20px;
+  flex-direction: row; }
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; }
+
+/*MAX-WIDTH*/
+img {
+  max-width: 100%; }
+
+/*Media Queries*/
+@media (max-width: 480px), (max-width: 991px), (min-width: 320px), (min-width: 576px), (min-width: 110px), ul {
+  list-style-type: none; }
+
+header nav ul li a:link {
+  color: black; }
+
+header nav ul li a:visited {
+  color: white; }
+
+header nav ul li a:hover {
+  color: yellow; }
+
+header nav ul li a:active {
+  color: red; }
+
+main article h2 div h3 p {
+  display: flex; }
+
+fieldset {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  text-align: center; }
+
+.Derecha {
+  display: flex; }
+
+.gradiante {
+  background: linear-gradient(#b94a3e, #415F78, #121b22);
+  width: 100%;
+  height: 100%; }
+
+.Director-imagen, .Satoru-imagen, .Atsuya-imagen, .Megumi-imagen, .Nobara-imagen, .Itadori-imagen, .Yuta-imagen, .Toge-imagen, .Panda-imagen, .Maki-imagen, .Kinji-imagen, .Kirara-imagen, .Shoko-imagen, .Kiyotaka-imagen, .Akari-imagen {
+  width: 100px;
+  transition: 5s; }
+
+body {
+  background-color: black;
+  color: white; }
+
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+/*Modificación del tamaño de las imagenes*/
+.logo-inicial {
+  width: 100px; }
+
+img:hover {
+  transform: scale(0.98); }
+
+/*GRIDS*/
+body {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer ";
+  text-align: center;
+  grid-area: main;
+  background-color: white; }
+
+header {
+  grid-area: header;
+  background-color: transparent; }
+
+footer {
+  grid-area: footer;
+  background-color: #fd4949;
+  padding: 10px;
+  align-content: center; }

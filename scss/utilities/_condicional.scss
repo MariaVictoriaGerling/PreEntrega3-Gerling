@@ -1,0 +1,23 @@
+$condicion: negro; 
+
+
+@if $condicion == blanco {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+@else if $condicion == negro{
+    body{
+        background-color: black;
+        color: white;
+    }
+}
+
+@else {
+    body{
+        background-color: blue;
+        color: red;
+    }
+}

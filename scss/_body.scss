@@ -1,0 +1,10 @@
+/*GRIDS*/
+body {
+    display: grid;
+     grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer ";
+    text-align: center;
+    background-color: white;
+}

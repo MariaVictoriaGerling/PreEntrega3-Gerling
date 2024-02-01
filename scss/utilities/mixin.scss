@@ -1,0 +1,6 @@
+@mixin img-tamaño ($width, $transition, $justify, $align){
+    width: $width;
+    transition: $transition;
+    justify-content: $justify;
+    align-items: $align;
+}

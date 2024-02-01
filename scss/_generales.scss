@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: $color-black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Conceptos padres e hijos*/
+/*Inicio*/
+
+section div {
+    background-color: $texto-primario;
+}
+
+/*Miembros*/
+main article {
+    background-color: $texto-primario;
+}
+
+/*Selector de clase*/
+.letra-grande {
+    font-size: 30px;
+}
+
+.letra-grandess {
+    font-size: 45px;  
+}
+
+.white {
+    color: $color-black;
+}
+
+
+ol li {
+     color: $color-secundario;
+    }
+
+h2 {
+    text-align: center;
+    font-family: "Kashima Demo.ort";
+}
+
+ h3 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+ }
+
+ /*TIPOS DE FUENTES*/
+ @font-face {
+    font-family: "Kashima Demo.ort";
+    src: url('../fonts/Kashima\ Demo.otf');
+}
+
+p {
+    font-family: 'Saira', sans-serif;
+}
+
+/*Espacio externo- márgenes*/
+.caja {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    
+  /*Display*/
+  .menú-nav  li {
+    display: inline;
+    margin-right: 50px;
+  }  
+
+  /*FLEXBOX*/
+.menú-nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+ /*GRIDS*/
+.grilla{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: 150px 150px;  
+    justify-content: center;
+    align-items: center;
+
+}
+ section div{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+
+/*MAX-WIDTH*/
+img {
+    max-width: 100%;
+}
+
+/*Media Queries*/
+@media (max-width:480px),
+(max-width: 991px),
+(min-width:320px),
+(min-width:576px),   
+(min-width:110px),
+
+ul {
+    list-style-type: none;
+}
+
+header nav ul li a:link{
+color: $color-black;
+}
+
+header nav ul li a:visited{
+color: $color-secundario;
+}
+
+header nav ul li a:hover{
+color: yellow;
+}
+
+header nav ul li a:active{
+color:red;
+}
+
+
+main article h2 div h3 p{
+display: flex;
+}
+
+fieldset {
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+font-weight: bold;
+text-align: center;
+}
+
+.Derecha{
+display: flex;
+}
+
+.gradiante {
+    background: linear-gradient(#b94a3e, #415F78, #121b22);
+    width: 100%;
+    height: 100%;
+}
+
+

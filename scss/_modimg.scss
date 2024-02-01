@@ -1,0 +1,73 @@
+/*Modificación del tamaño de las imagenes*/
+
+.logo-inicial {
+    width: 100px;
+}
+
+.Director-imagen {
+    @extend %img-tamaño;
+}
+
+img:hover{
+    transform:scale(0.98);
+}
+
+.Satoru-imagen {
+    @extend %img-tamaño;
+}
+
+.Atsuya-imagen{
+    @extend %img-tamaño;
+}
+
+.Megumi-imagen {
+    @extend %img-tamaño;
+}
+
+.Nobara-imagen {
+    @extend %img-tamaño;
+}
+
+.Itadori-imagen {
+    @extend %img-tamaño;
+}
+
+.Yuta-imagen{
+    @extend %img-tamaño;
+}
+
+.Toge-imagen {
+    @extend %img-tamaño;
+}
+
+.Panda-imagen {
+    @extend %img-tamaño;
+}
+
+.Maki-imagen {
+    @extend %img-tamaño;
+}
+
+.Kinji-imagen {
+    @extend %img-tamaño;
+}
+
+.Kirara-imagen {
+    @extend %img-tamaño;
+}
+
+.Shoko-imagen {
+    @extend %img-tamaño;
+}
+
+.Kiyotaka-imagen {
+    @extend %img-tamaño;
+}
+
+.Kiyotaka-imagen {
+    @extend %img-tamaño;
+}
+
+.Akari-imagen {
+    @extend %img-tamaño;
+}
